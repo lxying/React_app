@@ -1,0 +1,241 @@
+/*header组件*/
+/*应用图标和名称*/
+.logo {
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+}
+.logo img {
+  width: 48px;
+  height: 48px;
+}
+.logo span {
+  color: #00a2ae;
+  font-size: 24px;
+  padding-left: 5px;
+}
+
+
+/*header-nav样式
+
+ */
+
+/*注册/登陆 menuItem*/
+.register {
+  float: right !important; /*优先级最高*/
+}
+
+/*news_container/news_detail组件*/
+.container {
+
+  padding-top: 10px;
+  margin-top: 5px;
+}
+.leftContainer {
+  width: 400px;
+  float: left;
+}
+/*水平导航*/
+.ant-menu-horizontal>.ant-menu-item>a, .ant-menu-horizontal>.ant-menu-submenu>a {
+  display: inline-block !important;
+}
+/*右边登陆注册*/
+.register{
+  float: right;
+}
+/*新闻列表*/
+.tabs_news {
+  padding-left: 10px;
+  width: 400px;
+  float: left;
+}
+.tabs_news li {
+  height: 27px;
+  line-height: 27px;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 417px;
+  float: left;
+  text-overflow: ellipsis;
+}
+/*产品列表*/
+.tabs_product {
+  width: 300px;
+  padding-left: 10px;
+  float: left;
+}
+
+/*轮播图*/
+.carousel {
+  width: 400px;
+  float: left;
+}
+.carousel img {
+  width: 400px;
+  height: 260px;
+}
+
+/*image_block/news_block组件*/
+.imageblock {
+  float: left;
+}
+.custom-card {
+  padding: 5px 0;
+}
+.custom-card p {
+  color: #999;
+}
+.topNewsList {
+  float: left;
+  text-align: left;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.topNewsList a {
+  display: block;
+  line-height: 26px !important;
+  color: #666 !important;
+}
+
+.ant-card{
+  margin-top: 5px !important;
+}
+.ant-card-head-title{
+  text-align: left !important;
+}
+.topNewsList .ant-card-body{
+  text-align: left;
+  padding:12px 15px;
+}
+
+.ant-tabs-bar {
+  margin-bottom: 0 !important;
+}
+
+/*news_detail组件*/
+.title,.article-title .title {
+  font-size: 25px !important;
+  line-height: 1.4em
+}
+.article-src-time {
+  font-size: 18px !important;
+}
+.article-content .txt {
+  font-size: 20px !important;
+}
+.article {
+  text-align: justify
+}
+.article-content .img .img-wrap,.hot-news img {
+  background-repeat: no-repeat;
+  background-position: center
+}
+.hn-title h2,.in-title h2 {
+  z-index: 1;
+  font-weight: 600
+}
+#title {
+  margin: 16px 16px 0!important;
+  border-bottom: 1px solid #e5e5e5
+}
+.article-title {
+  margin-bottom: .2rem
+}
+#title .title,.article-title .title {
+  font-size: 1.44rem;
+  line-height: 1.4em
+}
+.title {
+  color: #000
+}
+.article-src-time {
+  font-size: 1rem;
+  color: #999;
+  padding-bottom: .2rem
+}
+.article-content .section {
+  line-height: 1.6em;
+  margin-bottom: .3rem;
+  margin-top: 0
+}
+.article-content .txt {
+  font-size: 1.36rem
+}
+.article-content .img {
+  margin-bottom: .3rem
+}
+.article-content .img .img-wrap {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  background-size: 40%
+}
+#content {
+  margin: .3rem 16px 16px
+}
+.article-content .img .img-wrap img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 60%
+}
+.article-content .img .txt-wrap {
+  font-size: .36rem;
+  line-height: 2em
+}
+
+/*news_products组件*/
+.pro_bg{
+  background: #eeeeee;
+  margin-top: 10px;
+}
+.pro{
+  padding:5px;
+  overflow: hidden;
+}
+.pro a{
+  float: left;
+  line-height: 30px;
+  margin-right:5px;
+}
+
+
+/*
+banner*/
+.ant-carousel .slick-slide img{
+  display: block;
+  width:100%;
+}
+
+
+/*left和bottom新闻图片列表 */
+
+.ant-tabs{
+  overflow: visible!important;
+}
+
+.topNewsList  .ant-tabs-nav-wrap {
+  width:392px!important;
+}
+
+.imageblock{
+  width:152px;
+  overflow: hidden;
+  padding:0 7px;
+
+}
+
+ .ant-card-body{
+  padding:16px 9px;
+}
+.leftContainer .imageblock{
+  width:126px;
+}
+
+.footer .ant-col-22{
+  margin:0 auto;
+}
